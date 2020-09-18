@@ -300,18 +300,23 @@ h6 {
 .room {
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
+  
 }
-.room:hover {
+ .room:hover {
   box-shadow: var(--darkShadow);
-}
+} 
 
 .img-container {
   position: relative;
+ 
 }
 .img-container img {
+
   width: 100%;
   display: block;
   transition: var(--mainTransition);
+  
+ 
 }
 .price-top {
   position: absolute;
